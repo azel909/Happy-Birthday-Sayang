@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fffaf7">
+<title>For Sayang ♡</title>
+<style>
+:root{--ink:#38312f;--muted:#887d78;--rose:#d98f91;--pink:#f7e4e1;--cream:#fffaf7;--line:#eee3de;--green:#9eae9b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'Poppins',serif}button{font:inherit;cursor:pointer}.sans{font-family:Arial,Helvetica,sans-serif}.wrap{width:min(920px,90%);margin:auto}.hero{min-height:94vh;display:grid;place-items:center;text-align:center;padding:70px 20px;position:relative;overflow:hidden}.eyebrow{font:11px Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(3.5rem,11vw,7.5rem);font-weight:400;letter-spacing:-.07em;margin:20px 0 12px}h1 em{color:var(--rose);font-style:italic}.hero p{font:15px/1.8 Arial,sans-serif;color:var(--muted);max-width:430px;margin:0 auto 28px}.btn{border:0;background:var(--ink);color:white;padding:14px 23px;border-radius:99px;font:12px Arial,sans-serif;letter-spacing:.06em;transition:.2s}.btn:hover{transform:translateY(-2px);background:#5c4d49}.tiny-heart{color:var(--rose);font-size:22px}.float{position:absolute;color:#e9c2bd;opacity:.7;font-size:22px;animation:drift 5s ease-in-out infinite}.f1{top:20%;left:15%}.f2{top:30%;right:14%;animation-delay:1s}.f3{bottom:18%;left:22%;animation-delay:2s}@keyframes drift{50%{transform:translateY(-14px) rotate(12deg)}}section{padding:85px 0;border-top:1px solid var(--line)}.section-head{text-align:center;margin-bottom:38px}.section-head .eyebrow{margin-bottom:12px}.section-head h2{font-size:clamp(2.1rem,6vw,3.5rem);font-weight:400;letter-spacing:-.045em;margin:0}.section-head p{font:14px/1.7 Arial,sans-serif;color:var(--muted);margin:12px auto 0;max-width:480px}.letter{max-width:650px;margin:auto;background:white;border:1px solid var(--line);border-radius:18px;padding:clamp(25px,6vw,52px);box-shadow:0 14px 45px #6d4c4010}.letter-top{display:flex;justify-content:space-between;color:var(--rose);font-size:20px}.letter h3{font-size:28px;font-weight:400;margin:24px 0 18px}.letter p{font:15px/1.95 Arial,sans-serif;color:#655b57}.sign{font-style:italic;font-size:23px;color:var(--rose);margin-top:25px}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.photo{border:1px solid var(--line);background:white;padding:9px 9px 16px;border-radius:9px;transform:rotate(var(--r));transition:.25s}.photo:hover{transform:rotate(0) translateY(-5px)}.photo img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#f2e8e4;border-radius:4px;display:block}.photo label{display:block;text-align:center;font:12px Arial,sans-serif;color:var(--muted);padding-top:12px}.upload-note{text-align:center;font:12px/1.7 Arial,sans-serif;color:var(--muted);margin-top:22px}.upload-note input{display:block;margin:12px auto}.cake-area{text-align:center;background:#fff;border:1px solid var(--line);border-radius:20px;padding:38px 18px}.cake{width:210px;height:190px;margin:12px auto 20px;position:relative}.plate{position:absolute;bottom:15px;left:10px;width:190px;height:15px;background:#eadbd5;border-radius:50%}.cake-base{position:absolute;bottom:28px;left:30px;width:150px;height:75px;background:#e9b6b1;border-radius:9px 9px 15px 15px;box-shadow:inset 0 -9px #d99b98}.icing{position:absolute;bottom:90px;left:30px;width:150px;height:27px;background:#fff0e9;border-radius:50% 50% 8px 8px}.icing:after{content:"";position:absolute;left:18px;top:9px;width:15px;height:24px;background:#fff0e9;border-radius:0 0 10px 10px;box-shadow:42px 4px #fff0e9,88px -1px #fff0e9}.candle{position:absolute;bottom:116px;left:100px;width:9px;height:39px;background:repeating-linear-gradient(45deg,#fff 0 5px,#e99b9c 5px 9px);border-radius:3px}.flame{position:absolute;bottom:155px;left:99px;width:12px;height:18px;background:#f5b75e;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 0 18px #f5b75e;animation:flicker .6s infinite alternate}.flame.out{display:none}@keyframes flicker{to{transform:rotate(-35deg) scale(.85)}}.cake-msg{font:14px/1.7 Arial,sans-serif;color:var(--muted);max-width:440px;margin:0 auto 22px}.surprise{display:none;text-align:center;background:#f8ece8;border-radius:20px;padding:45px 20px}.surprise.show{display:block;animation:pop .6s ease}@keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}.surprise h2{font-size:clamp(2.4rem,7vw,4.5rem);font-weight:400;margin:12px 0}.surprise p{font:14px/1.8 Arial,sans-serif;max-width:480px;margin:auto;color:#74645e}.footer{text-align:center;padding:45px 0 60px;color:var(--muted);font:12px Arial,sans-serif}.footer span{color:var(--rose)}.confetti{position:fixed;top:-20px;z-index:5;pointer-events:none;animation:fall 3s linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(650deg);opacity:0}}@media(max-width:620px){.gallery{grid-template-columns:repeat(2,1fr)}.photo:last-child{grid-column:1/-1;width:70%;justify-self:center}.hero{min-height:85vh}.letter{padding:25px}.float{font-size:18px}}
+.letter-stage {
+    text-align: center;
+}
+
+.scroll-letter {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: scaleY(0.02);
+    transform-origin: top center;
+    padding: 0 35px !important;
+    margin-top: 0;
+    border-width: 0;
+    transition:
+        max-height 2s ease,
+        opacity 1s ease,
+        transform 1.5s ease,
+        padding 1.5s ease,
+        margin 1.5s ease;
+}
+
+.scroll-letter.open {
+    max-height: 1500px;
+    opacity: 1;
+    transform: scaleY(1);
+    padding: 35px !important;
+    margin-top: 10px;
+    border-width: 1px;
+}
+
+.reveal-words span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: wordAppear 0.5s ease forwards;
+    animation-delay: calc(var(--i) * 0.07s);
+}
+
+@keyframes wordAppear {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.reveal-words {
+    visibility: hidden;
+}
+
+.reveal-words.typing {
+    visibility: visible;
+}
+
+.scroll-letter .letter-top,
+.scroll-letter h3 {
+    visibility: hidden;
+}
+
+.scroll-letter.open .letter-top,
+.scroll-letter.open h3 {
+    visibility: visible;
+}
+
+body.lock-scroll {
+    overflow: hidden;
+}
+
+</style>
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="Audio/Sempurna - Insomniacks KARAOKE PIANO - FEMALE KEY.mp3" type="audio/mpeg">
+  </audio>
+<header class="hero">
+  <span class="float f1">♡</span><span class="float f2">✿</span><span class="float f3">♡</span>
+  <div>
+    <div class="eyebrow">A little something, made just for you</div>
+    <h1>Happy birthday,<br><em>Sayang.</em></h1>
+    <p>Today is all about celebrating you - your smile, your heart, and all the little things that make you, you.</p>
+    <button class="btn" onclick="startBirthday()">
+    Open your surprise ♡
+</button>
+    <div class="tiny-heart" style="margin-top:25px">♡</div>
+  </div>
+</header>
+
+<main>
+<section id="letter"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Chapter one · From my heart</div><h2>A letter for you</h2><p>A few words for the girl who makes my ordinary days feel special.</p></div>
+  
+<div class="letter-stage">
+
+    <button class="btn" id="openLetterBtn"
+        onclick="openLoveLetter()">
+        Unroll my letter ♡
+    </button>
+
+    <article class="letter scroll-letter" id="loveLetter">
+
+        <div class="letter-top">
+            <span>♡</span>
+            <span>For Sayangku, Nurul Hadirah</span>
+        </div>
+
+        <h3>To my favourite person,</h3>
+
+        <p class="reveal-words">
+            Happy birthday, Sayang! I hope today reminds you
+            how loved, appreciated, and special you are.
+            Thank you for bringing so much happiness into my life,
+            for the laughs, the little moments, and for simply
+            being yourself.
+        </p>
+
+        <p class="reveal-words">
+            I may not always have the perfect words, but I hope
+            I never stop finding little ways to make you smile.
+            You deserve beautiful things, gentle days, big dreams,
+            and all the happiness this world can give.
+        </p>
+
+        <p class="reveal-words">
+            Here's to more memories, more silly jokes,
+            more adventures, and many more birthdays together.
+            Keep being your wonderful self. I'm always be your No.1 Fan and cheering for you.
+        </p>
+
+        <div class="sign reveal-words">
+            Sincerely, Shafiq ♡
+        </div>
+
+    </article>
+</div>
+
+</div></section>
+
+<section id="memories"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Chapter two · Little moments, big feelings</div><h2>Our little memories</h2><p>Three spaces for some of your favourite moments together. Add your own photos below.</p></div>
+  <div class="gallery">
+    <div class="photo" style="--r:-2deg"><img id="img1" alt="Memory one" src="Images/Memory 1.jpeg"><label>One of my favourite days</label></div>
+    <div class="photo" style="--r:2deg"><img id="img2" alt="Memory two" src="Images/Memory 3.jpeg"><label>Your smile, always</label></div>
+    <div class="photo" style="--r:-1deg"><img id="img3" alt="Memory three" src="Images/Memory 2.jpeg"><label>More moments to come</label></div>
+  </div>
+</div></section>
+
+<section id="cake"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Chapter three · Make a wish</div><h2>A little birthday magic</h2><p>Close your eyes, make a wish, and tap the button when you're ready.</p></div>
+  <div class="cake-area">
+    <div class="cake" aria-label="Illustration of a birthday cake"><div class="plate"></div><div class="cake-base"></div><div class="icing"></div><div class="candle"></div><div class="flame" id="flame"></div></div>
+    <p class="cake-msg" id="cakeMsg">One candle, a thousand wishes. I hope this year brings you everything your heart is hoping for.</p>
+    <button class="btn" id="blow" onclick="blowCandle()">I made a wish! ✨</button>
+  </div>
+</div></section>
+
+<section id="ending"><div class="wrap">
+  <div class="surprise" id="surprise">
+    <div style="font-size:35px;color:#cf8588">✿ ♡ ✿</div>
+    <div class="eyebrow" style="margin-top:15px">One last thing</div>
+    <h2>You are my favourite<br><em style="color:#cf8588">plot twist.</em></h2>
+    <p>If I could wish for one thing today, it would be that you see yourself the way I see you: precious, lovely, and so very easy to adore. Happy birthday, Sayang. Here's to your happiest year yet. ♡</p>
+    <div style="font-size:30px;margin-top:22px">♡</div>
+  </div>
+  <div id="endPrompt" class="section-head" style="margin:0"><div class="eyebrow">The final page</div><h2>There's one more thing…</h2><p>Tap below when you're ready for your last little surprise.</p><button class="btn" onclick="revealSurprise()" style="margin-top:15px">Reveal my surprise ♡</button></div>
+</div></section>
+</main>
+<footer class="footer">Made by Your Only Baby <span>♥</span>, especially for Sayang.</footer>
+<script>
+function loadPhotos(event){
+ const files=[...event.target.files].slice(0,3);
+ files.forEach((file,i)=>{const reader=new FileReader();reader.onload=e=>document.getElementById('img'+(i+1)).src=e.target.result;reader.readAsDataURL(file)});
+}
+function blowCandle(){
+ document.getElementById('flame').classList.add('out');
+ document.getElementById('cakeMsg').textContent='Wish made! May every little dream find its way to you. ♡';
+ const b=document.getElementById('blow');b.textContent='Wish sent! 💗';b.disabled=true;b.style.opacity='.65';
+ confetti();
+}
+function revealSurprise(){
+ document.getElementById('endPrompt').style.display='none';
+ document.getElementById('surprise').classList.add('show');
+ confetti();
+ document.getElementById('surprise').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function confetti(){
+ const symbols=['♡','✿','♥','✧','·'];
+ for(let i=0;i<38;i++){
+  const el=document.createElement('span');el.className='confetti';el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  el.style.left=Math.random()*100+'vw';el.style.animationDelay=Math.random()*.8+'s';el.style.fontSize=(12+Math.random()*18)+'px';el.style.color=['#d98f91','#e7b7a8','#b6c4ae','#d6b5ce'][Math.floor(Math.random()*4)];
+  document.body.appendChild(el);setTimeout(()=>el.remove(),4000);
+ }
+}
+function openLoveLetter() {
+
+    const letter = document.getElementById("loveLetter");
+    const button = document.getElementById("openLetterBtn");
+
+    if (!letter || !button) return;
+
+    letter.classList.add("open");
+
+    button.textContent = "Opening your letter... ♡";
+    button.disabled = true;
+
+    // Wait until the scroll has opened
+    setTimeout(() => {
+
+        const paragraphs = letter.querySelectorAll(".reveal-words");
+
+        let wordIndex = 0;
+
+        paragraphs.forEach(paragraph => {
+
+            const words = paragraph.textContent.trim().split(/\s+/);
+
+            paragraph.innerHTML = words.map(word => {
+
+                return `<span style="--i:${wordIndex++}">${word}</span>`;
+
+            }).join(" ");
+
+            // Reveal only when word animation starts
+            paragraph.classList.add("typing");
+
+        });
+
+        button.textContent = "Written with love ♡";
+
+    }, 2000);
+}
+function startBirthday() {
+    const music = document.getElementById("bgMusic");
+
+    music.volume = 0.4;
+    music.play();
+
+    // Unlock scrolling
+    document.body.classList.remove("lock-scroll");
+
+    // Scroll to the love letter
+    document.getElementById("letter").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+document.body.classList.add("lock-scroll");
+
+</script>
+</body>
+</html>
